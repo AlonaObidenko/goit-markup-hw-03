@@ -171,9 +171,7 @@ margin-right: 40px;
  .hero-btn:hover, .hero-btn:focus, .hero-btn:active {
     background-color: #404BBF; 
 }
-.advantages-title {
 
-}
 .advantages-list {
     display: flex;
     justify-content: center;
@@ -208,7 +206,7 @@ margin-right: 24px;
 .our-team-list {
     display: flex; 
 }
-.our-team-item {
+.our-team-item:first-child {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
@@ -221,6 +219,7 @@ margin-right: 24px;
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;
+    column-gap: 24px;
 }
 
 
@@ -229,8 +228,7 @@ margin-right: 24px;
     width: 360px;
     border-bottom: 1px solid #E7E9FC;
         background: #FFF;
-        padding: 32px 0;
-       
+    padding: 32px 16px;
 }
 .footer {
     background-color: #2E2F42;
