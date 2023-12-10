@@ -37,6 +37,7 @@ button {
     padding: 0;
     border: none;
 }
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -45,14 +46,14 @@ button {
     border: 0;
     padding: 0;
     white-space: nowrap;
+    clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    clip-path: inset(50%);
     overflow: hidden;
 }
 .section {
 padding: 120px 0;
 }
-header {
+.section-header {
     border-bottom: 1px solid #E7E9FC;
     background: #FFF;
     padding: 24px 156px;
@@ -178,6 +179,9 @@ margin-right: 40px;
 }
 .advantages-list-item:not(:last-child) {
 margin-right: 24px;
+}
+.advantages-list-item {
+    width: calc((100% - 72px) / 4);
 }
 .subtitle {
         font-size: 20px;
